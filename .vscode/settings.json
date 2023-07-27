@@ -2,6 +2,9 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "python.formatting.provider": "none",
-  "python.defaultInterpreterPath": "/home/tomasz/Pulpit/Kodilla/Obiekty_wizytowki/env/bin/python3"
+  "python.formatting.provider": "autopep8",
+  "python.defaultInterpreterPath": "/home/tomasz/Pulpit/Kodilla/Obiekty_wizytowki/env/bin/python3",
+  "python.formatting.autopep8Args": [
+    "\"python.formatting.autopep8Args\": [     \"--max-line-length=200\" ]"
+  ]
 }
